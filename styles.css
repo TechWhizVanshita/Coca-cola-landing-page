@@ -27,9 +27,10 @@ html,body{
 }
 
 #nav{
-    height: 100px;
+    height: 150px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
+    padding: 0 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;  
@@ -38,7 +39,7 @@ html,body{
 #nav-prt2{
     display: flex;
     align-items: center;
-    background-color: blue;
+    /* background-color: blue; */
     width: 45%;
     justify-content: space-between;
 }
@@ -50,15 +51,24 @@ html,body{
     align-items: center;
 }
 
-#nav > i{
+#nav i{
     font-size: 20px;
+    margin-right: 5px;
 }
 
 #nav h5{
     font-size: 14px;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
 #nav img{
     height: 50px;
+}
+
+
+#line{
+    width: 70px;
+    height: 2px;
+    background-color: red;
 }
