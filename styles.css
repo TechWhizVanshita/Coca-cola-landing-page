@@ -84,4 +84,17 @@ html,body{
     width: 38%;
     height: 100%;
     background-color: red;
+    display: flex;
+}
+
+#right{
+    width: 38%;
+    height: 100%;
+    background-color: red;
+}
+
+#center{
+    width: 24%;
+    height: 100%;
+    background-color: blue;
 }
