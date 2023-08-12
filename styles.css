@@ -78,3 +78,10 @@ html,body{
     width: 100%;
     background-color: lightblue;
 }
+
+
+#left{
+    width: 38%;
+    height: 100%;
+    background-color: red;
+}
