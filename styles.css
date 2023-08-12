@@ -1,8 +1,18 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('path/to/gilroy.woff2') format('woff2'),
+         url('path/to/gilroy.woff') format('woff');
+    /* Add more font formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: gilroy;
+    font-family: 'Gilroy', sans-serif;
+    color: white;
 }
 
 html,body{
@@ -14,4 +24,21 @@ html,body{
     width: 100%;
     height: 100%;
     background-color: #000;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    width: 45%;
+    justify-content: space-between;
 }
