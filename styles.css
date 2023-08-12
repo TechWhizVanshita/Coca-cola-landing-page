@@ -42,3 +42,11 @@ html,body{
     width: 45%;
     justify-content: space-between;
 }
+
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+
+}
