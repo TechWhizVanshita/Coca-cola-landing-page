@@ -77,24 +77,28 @@ html,body{
     height: calc(100% - 150px);
     width: 100%;
     background-color: lightblue;
+    display: flex;
 }
 
 
 #left{
-    width: 38%;
+    width: 36%;
     height: 100%;
     background-color: red;
-    display: flex;
 }
 
 #right{
-    width: 38%;
+    width: 36%;
     height: 100%;
     background-color: red;
 }
 
 #center{
-    width: 24%;
+    width: 28%;
     height: 100%;
     background-color: blue;
+}
+
+#left h1{
+    font-size: 75px;
 }
