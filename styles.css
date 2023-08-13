@@ -122,8 +122,12 @@ html,body{
 
 #left button{
      background-color: red;
-     padding: 18px 30px;
-     border-radius: 95px;
+     padding: 20px 40px;
+     border-radius: 50px;
+     font-size: 19px;
+     display: flex;
+     align-items: center;
+     font-weight: 700;
      cursor: pointer;
 }
 
