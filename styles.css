@@ -104,6 +104,7 @@ html,body{
     font-size: 72px;
     line-height: 70px;
     font-weight: 700;
+    margin-bottom: 50px;
 }
 
 #left h1 span{
@@ -114,4 +115,5 @@ html,body{
 #left p {
     font-size: 18px;
     width: 70%;
+    margin-bottom: 50px;
 }
